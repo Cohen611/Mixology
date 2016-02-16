@@ -1,0 +1,35 @@
+var drinks = {
+  lemonDrop: "Congratulations! We recommend a Lemon Drop Martini!",
+  lemonCactus: "Congratulations! We recommend a Lemon Yellow Cactus!",
+  lemonMerengue: "Congratulations! We recommend a Salty Lemon Merengue!",
+   gumdrop: "Congratulations! We recommend a Gum Drop Martini!",
+   cosmo: "Congratulations! We recommend a Cosmo!",
+   lychee: "Congratulations! We recommend a Lychee Martini!",
+   hornyMonkey: "Congratulations! We recommend a Horny Monkey!",
+   jamesBond: "Congratulations! We recommend a James Bond Martini!",
+   goldenFrog: "Congratulations! We recommend a Golden Frog!",
+   adamFrog: "Congratulations! We recommend an Adam Bomb!",
+   clementine: "Congratulations! We recommend a Clementine!",
+   mangoMint: "Congratulations! We recommend a Mango Mint",
+   charm: "Congratulations! We recommend an Charm de Paris !",
+   florida: "Congratulations! We recommend a Floridia Cocktail!",
+   newOreleans: "Congratulations! We recommend a New Orleans Punch!",
+   bastard: "Congratulations! We recommend an Suffering Bastard!",
+   island: "Congratulations! We recommend a Island Martini!",
+   zombie: "Congratulations! We recommend a Zombie!",
+   texican: "Congratulations! We recommend The Texican!",
+   cactusBite: "Congratulations! We recommend a Cactus Bite!",
+   roadRunner: "Congratulations! We recommend a Road Runner Martini!",
+   trailDust: "Congratulations! We recommend an Trial Dust!",
+   braveBull: "Congratulations! We recommend a Brave Bull!",
+   parrotHead: "Congratulations! We recommend a Parrothead Martini!",
+   longIsland: "Congratulations! We recommend a Long Island Ice Tea!",
+   blueMotorcycle: "Congratulations! We recommend a Blue Motorcycle",
+   purpleCactus: "Congratulations! We recommend a Purple Cactus!",
+};
+
+var questions= {
+  pickDrink: "Pick a drink: Vodka, Rum or Tequila?",
+  flavor: "Pick a flavor: Sweet, Salty or Sour?",
+  drinkColor: "Pick a color: Yellow, Red or Blue"
+};

@@ -1,187 +1,187 @@
 console.log('This is coming from game.js');
 
 
-var drink = prompt("Pick a drink: Vodka, Rum or Tequila?");
+var drink = prompt(questions.pickDrink);
 if( drink === "Vodka")
 {
-  var color = prompt("Pick a color: Yellow, Red or Blue");
+  var color = prompt(questions.drinkColor);
     if(color ==="Yellow")
     {
-      var flavor = prompt("Pick a flavor: Sweet, Salty or Sour");
+      var flavor = prompt(questions.flavor);
         if(flavor === "Sour")
         {
-          alert("Congratulations! We recommend a Lemon Drop Martini!");
-          console.log("Congratulations! We recommend a Lemon Drop Martini!");
-        }
+          alert(drinks.lemonDrop);
+          console.log(drinks.lemonDrop);        }
+
         if(flavor === "Sweet")
         {
-          alert("Congratulations! We recommend a Lemon Yellow Cactuc!");
-          console.log("Congratulations! We recommend a Yellow Catcus!");
+          alert(drinks.lemonCactus);
+          console.log(drinks.lemonCactus);
         }
         if(flavor === "Salty")
         {
-          alert("Congratulations! We recommend a Salty Lemon Merengue!");
-          console.log("Congratulations! We recommend a Salty Lemon Cosmo!");
+          alert(drinks.lemonMerengue);
+          console.log(drinks.lemonMerengue);
         }
     }
     if(color ==="Red")
     {
-      var flavor = prompt("Pick a flavor: Sweet, Salty or Sour");
+      var flavor = prompt(questions.flavor);
         if(flavor === "Sour")
         {
-          alert("Congratulations! We recommend a Gum Drop Martini!");
-          console.log("Congratulations! We recommend a Gum Drop Martini!");
+          alert(drinks.gumDrop);
+          console.log(drinks.gumDrop);
         }
         if(flavor === "Sweet")
         {
-          alert("Congratulations! We recommend a Cosmo!");
-          console.log("Congratulations! We recommend a Cosmo!");
+          alert(drinks.cosmo);
+          console.log(drinks.cosmo);
         }
         if(flavor === "Salty")
         {
-          alert("Congratulations! We recommend a Lychee Martini!");
-          console.log("Congratulations! We recommend a Lychee Martini!");
+          alert(drinks.lychee);
+          console.log(drinks.lychee);
         }
     }
     if(color ==="Blue")
     {
-      var flavor = prompt("Pick a flavor: Sweet, Salty or Sour");
+      var flavor = prompt(questions.flavor);
         if(flavor === "Sour")
         {
-          alert("Congratulations! We recommend a Horny Monkey!");
-          console.log("Congratulations! We recommend a Horny Monkey!");
+          alert(drinks.hornyMonkey);
+          console.log(drinks.hornyMonkey);
         }
         if(flavor === "Sweet")
         {
-          alert("Congratulations! We recommend a James Bond Martini!");
-          console.log("Congratulations! We recommend a James Bond Martini!");
+          alert(drinks.jamesBond);
+          console.log(drinks.jamesBond);
         }
         if(flavor === "Salty")
         {
-          alert("Congratulations! We recommend a Golden Frog!");
-          console.log("Congratulations! We recommend a Golden Frog!");
+          alert(drinks.goldenFrog);
+          console.log(drinks.goldenFrog);
         }
     }
 }
 if( drink === "Rum")
 {
-  var color = prompt("Pick a color: Yellow, Red or Blue");
+  var color = prompt(questions.drinkColor);
     if(color ==="Yellow")
     {
-      var flavor = prompt("Pick a flavor: Sweet, Salty or Sour");
+      var flavor = prompt(questions.flavor);
         if(flavor === "Sour")
         {
-          alert("Congratulations! We recommend an Adam Bomb!");
-          console.log("Congratulations! We recommend an Adam Bomb!");
+          alert(drinks.adamFrog);
+          console.log(drinks.adamFrog);
         }
         if(flavor === "Sweet")
         {
-          alert("Congratulations! We recommend a Clementine!");
-          console.log("Congratulations! We recommend a Clementine!");
+          alert(drinks.clementine);
+          console.log(drinks.clementine);
         }
         if(flavor === "Salty")
         {
-          alert("Congratulations! We recommend a Mango Mint!");
-          console.log("Congratulations! We recommend a Mango Mint!");
+          alert(drinks.mangoMint);
+          console.log(drinks.mangoMint);
         }
     }
     if(color ==="Blue")
     {
-      var flavor = prompt("Pick a flavor: Sweet, Salty or Sour");
+      var flavor = prompt(questions.flavor);
         if(flavor === "Sour")
         {
-          alert("Congratulations! We recommend an Charm de Paris !");
-          console.log("Congratulations! We recommend an Charm de Paris!");
+          alert(drinks.charm);
+          console.log(drinks.charm);
         }
         if(flavor === "Sweet")
         {
-          alert("Congratulations! We recommend a Floridia Cocktail!");
-          console.log("Congratulations! We recommend a Florida Cocktail");
+          alert(drinks.florida);
+          console.log(drinks.florida);
         }
         if(flavor === "Salty")
         {
-          alert("Congratulations! We recommend a New Orleans Punch!");
-          console.log("Congratulations! We recommend a New Orleans Punch!");
+          alert(drinks.newOrleans);
+          console.log(drinks.newOrleans);
         }
     }
     if(color ==="Red")
     {
-      var flavor = prompt("Pick a flavor: Sweet, Salty or Sour");
+      var flavor = prompt(questions.flavor);
         if(flavor === "Sour")
         {
-          alert("Congratulations! We recommend an Suffering Bastard !");
-          console.log("Congratulations! We recommend an Suffering Bastard!");
+          alert(drinks.bastard);
+          console.log(drinks.bastard);
         }
         if(flavor === "Sweet")
         {
-          alert("Congratulations! We recommend a Island Martini!");
-          console.log("Congratulations! We recommend a Island Martini");
+          alert(drinks.island);
+          console.log(drinks.island);
         }
         if(flavor === "Salty")
         {
-          alert("Congratulations! We recommend a Zombie!");
-          console.log("Congratulations! We recommend a Zombie!");
+          alert(drinks.zombie);
+          console.log(drinks.zombie);
         }
     }
 }
 if( drink === "Tequila")
 {
-  var color = prompt("Pick a color: Yellow, Red or Blue");
+  var color = prompt(questions.drinkColor);
     if(color ==="Yellow")
     {
-      var flavor = prompt("Pick a flavor: Sweet, Salty or Sour");
+      var flavor = prompt(questions.flavor);
         if(flavor === "Sour")
         {
-          alert("Congratulations! We recommend an The Texican!");
-          console.log("Congratulations! We recommend an The Texican!");
+          alert(drinks.texican);
+          console.log(drinks.texican);
         }
         if(flavor === "Sweet")
         {
-          alert("Congratulations! We recommend a Cactus Bite!");
-          console.log("Congratulations! We recommend a Cactus Bite!");
+          alert(drinks.cactusBite);
+          console.log(drinks.cactusBite);
         }
         if(flavor === "Salty")
         {
-          alert("Congratulations! We recommend a Road Runner Martini!");
-          console.log("Congratulations! We recommend a Road Runner Martini!");
+          alert(drinks.roadRunner);
+          console.log(drinks.roadRunner);
         }
     }
     if(color ==="Blue")
     {
-      var flavor = prompt("Pick a flavor: Sweet, Salty or Sour");
+      var flavor = prompt(questions.flavor);
         if(flavor === "Sour")
         {
-          alert("Congratulations! We recommend an Trail Dust!");
-          console.log("Congratulations! We recommend an Trial Dust!");
+          alert(drinks.trailDust);
+          console.log(drinks.trailDust);
         }
         if(flavor === "Sweet")
         {
-          alert("Congratulations! We recommend a Brave Bull!");
-          console.log("Congratulations! We recommend a Brave Bull!");
+          alert(drinks.braveBull);
+          console.log(drinks.braveBull);
         }
         if(flavor === "Salty")
         {
-          alert("Congratulations! We recommend a Parrothead Martini!");
-          console.log("Congratulations! We recommend a Parrothead Martini!");
+          alert(drinks.parrotHead);
+          console.log(drinks.parrotHead);
         }
     }
     if(color ==="Red")
     {
-      var flavor = prompt("Pick a flavor: Sweet, Salty or Sour");
+      var flavor = prompt(questions.flavor);
         if(flavor === "Sour")
         {
-          alert("Congratulations! We recommend a Long Island Ice Tea!");
-          console.log("Congratulations! We recommend a Long Island Ice Tea!");
+          alert(drinks.longIsland);
+          console.log(drinks.longIsland);
         }
         if(flavor === "Sweet")
         {
-          alert("Congratulations! We recommend a Blue Motorcycle");
-          console.log("Congratulations! We recommend a Blue Motorcycle!");
+          alert(drinks.blueMotorcycle);
+          console.log(drinks.blueMotorcycle);
         }
         if(flavor === "Salty")
         {
-          alert("Congratulations! We recommend a Purple Cactus!");
-          console.log("Congratulations! We recommend a Purple Cactus!");
+          alert(drinks.purpleCactus);
+          console.log(drinks.purpleCactus);
         }
     }
 }
